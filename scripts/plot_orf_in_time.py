@@ -69,12 +69,7 @@ def create_ORF_time_csgRNA(orf_df):
     ax.set_ylabel('Counts', loc='center')
     ax.set_title(name)
     ax.legend( (bar1, bar2, bar3), ('Periscope', 'LeTRS', 'sgDI-tector'), loc='upper left')
-    
-    ax2.set_xticks(x_axis+width,orf_df[name], fontsize=7)
-    ax2.set_ylabel('Counts', loc='center')
-    ax2.set_title(name)
-    ax2.legend( (bar1, bar2, bar3), ('Periscope', 'LeTRS', 'sgDI-tector'), loc='upper left')
-    
+        
     # plt.show()
     plt.savefig(name + '_barplot_in_time.jpeg')
     plt.close()
