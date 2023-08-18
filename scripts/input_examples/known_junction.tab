@@ -1,0 +1,18 @@
+subgenome	ref_leader_end	peak_leader_end	ref_TRS_start	peak_TRS_start	peak_count	peak_normalized_count	cluster_count	cluster_normalized_count
+S	65	65	21552	21552	306(25,0,281,306)	736.02(2408.71,0.00,708.82,733.43)	306(25,0,281,306)	736.02(2408.71,0.00,708.82,733.43)
+ORF3a	69	69	25385	25385	1(0,0,1,1)	2.41(0.00,0.00,2.52,2.40)	1(0,0,1,1)	2.41(0.00,0.00,2.52,2.40)
+E	69	69	26237	26237	58(3,1,54,58)	139.51(289.05,96.08,136.22,139.02)	58(3,1,54,58)	139.51(289.05,96.08,136.22,139.02)
+M	65	65	26469	26469	509(35,0,474,509)	1224.29(3372.19,0.00,1195.67,1219.99)	534(37,0,497,534)	1284.42(3564.89,0.00,1253.69,1279.91)
+ORF6	69	69	27041	27041	110(2,7,101,110)	264.58(192.70,672.56,254.77,263.65)	111(2,7,102,111)	266.99(192.70,672.56,257.30,266.05)
+ORF7a	69	69	27388	27388	1(0,0,1,1)	2.41(0.00,0.00,2.52,2.40)	1(0,0,1,1)	2.41(0.00,0.00,2.52,2.40)
+ORF7b	65	0	27644	0	0	0	0	0
+ORF8	65	0	27884	0	0	0	0	0
+N	65	65	28256	28256	594(14,0,580,594)	1428.74(1348.88,0.00,1463.05,1423.72)	594(14,0,580,594)	1428.74(1348.88,0.00,1463.05,1423.72)
+ORF10	65	0	29530	0	0	0	0	0
+The number out of the bracket is all read pairs with this fusion site, and the numbers in the bracket are (read pairs with only forward primer in both pools, read pairs with only reverse primer in both pools, read pairs with both primers in both pools, read pairs with least a primer in both pools)).
+Normalized count=(Read pair count/Total number of read pair mapped on reference genome)*1000000.
+Normalized count with only forward primer in both pools=(Read pair count with only forward primer in both pools/Total number of read pair with only forward primer in both pools mapped on reference genome)*1000000.
+Normalized count with only reverse primer in both pools=(Read pair count with only reverse primer in both pools/Total number of read pair with only reverse primer in both pools mapped on reference genome)*1000000.
+Normalized count with both primers in both pools=(Read pair count with both primers in both pools/Total number of read pair with both primer in both pools mapped on reference genome)*1000000.
+Normalized count with at least a primer in both pools=(Read pair count with at a least primer in both pools/Total number of pair read at a primer in both pools mapped on reference genome)*1000000.
+Total number of read pair in both pools mapped on reference genome is 415752, total number of read pair with only forward primer in both pools mapped on reference genome is 10379, total number of read pair with only reverse primer in both pools mapped on reference genome is 10408, total number of read pair with both primer in both pools mapped on reference genome is 396431, and total number of read pair at a primer in both pools mapped on reference genome is 417218,excluding the mapped reads not primary alignment and supplementary alignment.
